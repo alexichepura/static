@@ -2,6 +2,7 @@
 @import 'flexboxgrid';
 @import 'var';
 
+// just an example
 .red {
-  color: var(--red);
+  color: var(--my-color-red);
 }

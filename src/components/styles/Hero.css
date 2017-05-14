@@ -1,6 +1,12 @@
+@import '../../styles/var.css';
+
 .hero {
   width: 500px;
   height: 400px;
   background-image: url('/img/1.svg');
   background-size: cover;
+}
+
+.heroTitle {
+  color: var(--my-color-red);
 }
