@@ -1,0 +1,7 @@
+@import 'reset';
+@import 'flexboxgrid';
+@import 'var';
+
+.red {
+  color: var(--red);
+}
