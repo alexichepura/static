@@ -16,9 +16,14 @@ const {
   }
 } = webpack
 
-const NODE_ENV = process.env.NODE_ENV
-const IS_PROD = NODE_ENV === 'production'
-const PATH_DIST = path.resolve(__dirname, 'public', 'dist')
+const {
+  NODE_ENV,
+  IS_PROD,
+  PATH_DIST,
+  PORT
+} = require('./config')
+
+console.log(PORT)
 
 const config = {
   performance: {
@@ -130,7 +135,8 @@ const config = {
   },
   devServer: {
     contentBase: path.join(__dirname, "public"),
-    hot: true
+    hot: true,
+    port: PORT
   }
 }
 
