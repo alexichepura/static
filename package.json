@@ -5,8 +5,8 @@
   "author": "Alexi Chepura",
   "license": "MIT",
   "scripts": {
-    "build:dll": "webpack --config webpack.dll.config.js",
-    "server:dev": "webpack-dev-server --watch --inline"
+    "dll": "webpack --config webpack.dll.config.js",
+    "start": "webpack-dev-server --watch --inline"
   },
   "dependencies": {
     "react": "^15.5.4",

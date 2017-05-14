@@ -5,9 +5,16 @@ Small react boilerplate for my friends to help them start with:
 - typescript 
 
 ## How to start
-### Install and compile vendors build (DLL)
+Install [yarn](https://yarnpkg.com/en/docs/install) first.
+
+### Install dependencies
 ```
-yarn && yarn build:dll
+yarn
+```
+
+### Compile vendors build (DLL)
+```
+yarn dll
 ```
 
 ### Start development
